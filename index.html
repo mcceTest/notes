@@ -3,32 +3,40 @@
 <html>
     <head>
         <meta charset="UTF-8"/>
-        <title>index page</title>
+        <title>my links</title>
+
+        <script src="j2.js">
+        </script>
+
+        <link rel="stylesheet" href="style.css"/>
     </head>
 
     <body>
-        <div>
-            <h1 id='subTitle'>
-                    Fangfang's Links
-            </h1>
-        </div>
+        <h1 id='subTitle'>
+                Fangfang's Links
+        </h1>
         
 
-        <main>
-            <div>
-                <a href="https://www.ifun.tv/">
-                  <img src="ifunLogo.jpg"/>
-                </a>
-              </div>
-              
-              <div>
-                <a href="https://www.dealmoon.com/">
-                  <img src="dealmoonLogo.jpg"/>
-                </a>
-              </div>
-        </main>
+        <table>
+            <tr>
+                <td>
+                    <a href="https://www.ifun.tv/">
+                        <img src="ifunLogo.jpg"/>
+                    </a>
+                </td>
+
+                <td>
+                    <a href="https://www.dealmoon.com/">
+                        <img src="dealmoonLogo.jpg"/>
+                    </a>
+                </td>
+            </tr>
+        </table>
 
         <script src="j1.js"></script>
+
+
+        <input type="button" onclick="countRabbits()" value="Count rabbits!">
 
         <footer>
             &copy; 2019
