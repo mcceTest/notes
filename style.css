@@ -1,5 +1,5 @@
 body {
-    background-color: aqua;
+    background-color: lightgreen;
 }
 
 #subTitle {
@@ -8,4 +8,26 @@ body {
 
 td {
     border: 2px solid black; 
+}
+
+
+#hh {
+    color: red;
+}
+
+#mm {
+    color: green;
+}
+
+#ss {
+    color: blue;
+}
+
+#clock {
+    font-size: 150%;
+}
+
+footer {
+    position: fixed;
+    bottom: 80px;
 }
