@@ -33,11 +33,31 @@
             </tr>
         </table>
 
-        <div id="parent">
-            <div id="chidl">
-                
-            </div>
-        </div>
+        <table>
+            <tr>
+                <td>
+                    <div style="background: red; width:40px; height:100px"> </div>
+                </td>           
+                <td>
+                        <div style="background: blue; width:40px; height:111px"> </div>
+                </td>
+            </tr>
+        </table>
+        
+
+        <select id="select">
+            <option value="apple">Apple</option>
+            <option value="pear">Pear</option>
+            <option value="banana">Banana</option>
+        </select>
+
+        <script>
+            // all three lines do the same thing
+            select.options[2].selected = true;
+            select.selectedIndex = 2;
+            select.value = 'banana';
+        </script>
+
 
 
 
