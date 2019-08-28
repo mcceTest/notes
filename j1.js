@@ -1,8 +1,8 @@
 'use strict';
 
-let ele = document.getElementById("subTitle");
+// let ele = document.getElementById("subTitle");
 
-setInterval(() => ele.style.visibility = (ele.style.visibility == 'hidden' ? 'visible' : 'hidden'), 1000);
+// setInterval(() => ele.style.visibility = (ele.style.visibility == 'hidden' ? 'visible' : 'hidden'), 1000);
 
 let tbl = document.getElementById("links");
 tbl.addEventListener("mouseover", function(event) {
@@ -23,3 +23,7 @@ function updateClock() {
 
 updateClock();
 setInterval(updateClock, 1000);
+
+
+let blob = new Blob(["Hi, how are you"], {type:'text/plain'});
+document.getElementById("df").href = URL.createObjectURL(blob);

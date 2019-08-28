@@ -2,10 +2,6 @@ body {
     background-color: lightgreen;
 }
 
-#subTitle {
-    color: blue;
-}
-
 #links td {
     border: 2px solid black; 
 }
@@ -30,4 +26,9 @@ body {
 footer {
     position: fixed;
     bottom: 80px;
+}
+
+h1 {
+    text-align: center;
+    color: blueviolet;
 }
