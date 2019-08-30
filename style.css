@@ -1,9 +1,12 @@
 body {
     background-color: lightgreen;
+    background-size: cover;
 }
 
 #links td {
     border: 2px solid black; 
+    padding: 10px;
+    width: 100px;
 }
 
 
@@ -24,11 +27,33 @@ body {
 }
 
 footer {
-    position: fixed;
+    right: 10px;
     bottom: 80px;
+    position: fixed;
 }
 
 h1 {
     text-align: center;
-    color: blueviolet;
+}
+
+img.linkImg {
+    width: 150px;
+    height: 60px;
+    padding: 5px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img.linkImg:hover {
+    background-color: blueviolet;
+}
+
+h1 span.title {
+    color: purple;
+}
+
+div.mulCol {
+    column-count: 2;
 }

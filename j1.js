@@ -1,24 +1,11 @@
 'use strict';
 
-// let ele = document.getElementById("subTitle");
-
-// setInterval(() => ele.style.visibility = (ele.style.visibility == 'hidden' ? 'visible' : 'hidden'), 1000);
-
-let tbl = document.getElementById("links");
-tbl.addEventListener("mouseover", function(event) {
-    event.target.style.background = 'pink';
-});
-
-tbl.addEventListener("mouseout", (event) => event.target.style.background='');
-
-
-
 
 function updateClock() {
     let dt = new Date();
-    document.getElementById("hh").innerText = dt.getHours();
-    document.getElementById("mm").innerText = dt.getMinutes();
-    document.getElementById("ss").innerText = dt.getSeconds();
+    document.getElementById("hh").innerText = dt.getHours() < 10 ? '0' + dt.getHours(): dt.getHours();
+    document.getElementById("mm").innerText = dt.getMinutes() < 10 ? '0' + dt.getMinutes(): dt.getMinutes();
+    document.getElementById("ss").innerText = dt.getSeconds() < 10 ? '0' + dt.getSeconds(): dt.getSeconds();
 }
 
 updateClock();

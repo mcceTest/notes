@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8"/>
         <title>My links</title>
-
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
         <script src="j2.js">
         </script>
         <link rel="shortcut icon" type="image/x-icon" href="cute-alien.png"/>
@@ -13,50 +13,32 @@
 
     <body>
         <h1>
-            Fangfang's Links
+            <i class="fas fa-heart fa-xs"></i>
+            <span class="title">Fangfang's Links</span>
+            <i class="fas fa-heart fa-xs"></i>
         </h1>
+
+        <img src="12-fd.jpg" style="float: right; width: 200px"/>
         
+        <ul >
+            <li>
+                <a href="https://www.ifun.tv/" target="_blank">
+                    <img class="linkImg" src="ifunLogo.jpg" title="多瑙"/>
+                </a>
 
-        <table id="links" name="ff">
-            <tr>
-                <td>
-                    <a href="https://www.ifun.tv/" target="_blank">
-                        <img src="ifunLogo.jpg"/>
-                    </a>
-                </td>
-
-                <td>
+                <a href="https://www.google.com/" target="_blank">
+                    <img class="linkImg" src="google.png" title="Google"/>
+                </a>
+            </li>
+                
+            <li>
+                <span>
                     <a href="https://www.dealmoon.com/" target="_blank">
-                        <img src="dealmoonLogo.jpg"/>
+                        <img class="linkImg" src="dealmoonLogo.jpg" title="dealmoon"/>
                     </a>
-                </td>
-            </tr>
-        </table>
-
-        <table>
-            <tr>
-                <td>
-                    <div style="background: red; width:40px; height:100px"> </div>
-                </td>           
-                <td>
-                        <div style="background: blue; width:40px; height:111px"> </div>
-                </td>
-            </tr>
-        </table>
-        
-
-        <select id="select">
-            <option value="apple">Apple</option>
-            <option value="pear">Pear</option>
-            <option value="banana">Banana</option>
-        </select>
-
-        <script>
-            // all three lines do the same thing
-            select.options[2].selected = true;
-            select.selectedIndex = 2;
-            select.value = 'banana';
-        </script>
+                </span>
+            </li>
+        </ul>
 
 
         <a download="hello.txt" href="hello.txt" id="df">Download file</a>
