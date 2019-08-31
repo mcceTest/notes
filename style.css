@@ -15,7 +15,7 @@ header {
     grid-area: header;
     text-align: center;
     background-color: lightpink;
-    color: lightcyan;
+    color: paleturquoise;
 }
 
 nav {

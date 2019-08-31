@@ -2,6 +2,8 @@
 
 
 $(document).ready(function(){
+  $("aside img").fadeIn("slow");
+
   $("nav div.all span").hover(function() {
     $("#links a").show();
   })
@@ -16,4 +18,5 @@ $(document).ready(function(){
     $("#links a").hide();
     $("#links a.deal").show();
   });
-})
+});
+
