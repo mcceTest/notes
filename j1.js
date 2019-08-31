@@ -10,7 +10,3 @@ function updateClock() {
 
 updateClock();
 setInterval(updateClock, 1000);
-
-
-let blob = new Blob(["Hi, how are you"], {type:'text/plain'});
-document.getElementById("df").href = URL.createObjectURL(blob);

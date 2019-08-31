@@ -4,6 +4,9 @@
     <head>
         <meta charset="UTF-8"/>
         <title>My links</title>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>
         <script src="j2.js">
         </script>
@@ -12,37 +15,47 @@
     </head>
 
     <body>
-        <h1>
-            <i class="fas fa-heart fa-xs"></i>
-            <span class="title">Fangfang's Links</span>
-            <i class="fas fa-heart fa-xs"></i>
-        </h1>
-
-        <img src="12-fd.jpg" style="float: right; width: 200px"/>
+        <header>
+            <h1>
+                <i class="fas fa-heart fa-xs"></i>
+                <span class="title">Fangfang's Links</span>
+                <i class="fas fa-heart fa-xs"></i>
+            </h1>
+        </header>
         
-        <ul >
-            <li>
-                <a href="https://www.ifun.tv/" target="_blank">
+        
+        <nav>
+            <div class="all"><span>All</span></div>
+            <div class="movie"><span>Movie</span></div>
+            <div class="deal"><span>Deal</span></div>
+        </nav>
+
+
+        <main>
+            <div id="links">
+                <a href="https://www.ifun.tv/" target="_blank" class="movie">
                     <img class="linkImg" src="ifunLogo.jpg" title="多瑙"/>
                 </a>
-
+    
                 <a href="https://www.google.com/" target="_blank">
                     <img class="linkImg" src="google.png" title="Google"/>
                 </a>
-            </li>
+    
+                <a href="https://www.dealmoon.com/" target="_blank" class="deal">
+                    <img class="linkImg" src="dealmoonLogo.jpg" title="dealmoon"/>
+                </a>
+    
+                <a href="https://www.dealmoon.com/" target="_blank" class="deal">
+                    <img class="linkImg" src="dealmoonLogo.jpg" title="dealmoon"/>
+                </a>
+    
                 
-            <li>
-                <span>
-                    <a href="https://www.dealmoon.com/" target="_blank">
-                        <img class="linkImg" src="dealmoonLogo.jpg" title="dealmoon"/>
-                    </a>
-                </span>
-            </li>
-        </ul>
+            </div>
+        </main>
 
-
-        <a download="hello.txt" href="hello.txt" id="df">Download file</a>
-
+        <aside>
+            <img src="12-fd.jpg"/>
+        </aside>
 
         <footer>
             <div id="clock">
