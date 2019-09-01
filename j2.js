@@ -2,7 +2,7 @@
 
 
 $(document).ready(function(){
-  $("aside img").fadeIn("slow");
+  $("aside img").fadeIn(3000);
 
   $("nav div.all span").hover(function() {
     $("#links a").show();
