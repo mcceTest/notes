@@ -18,6 +18,10 @@ header {
     color: paleturquoise;
 }
 
+header:hover {
+    color: purple;
+}
+
 nav {
     grid-area: nav;
     background-color: black;
