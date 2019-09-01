@@ -1,9 +1,10 @@
 'use strict';
 
 
-$(document).ready(function(){
-  $("aside img").fadeIn(3000);
 
+
+
+$(document).ready(function(){
   $("nav div.all span").hover(function() {
     $("#links a").show();
   })

@@ -10,3 +10,15 @@ function updateClock() {
 
 updateClock();
 setInterval(updateClock, 1000);
+
+
+let images = ["12-fd.jpg", "12-fm.jpg"]
+let $sideImg = $("aside img"), idx = 0, speed = 800;
+
+setInterval(() => {
+    $($sideImg).fadeOut(speed, () => {
+      idx = ++idx % images.length;
+      $sideImg.attr("src", images[idx]);
+      $sideImg.fadeIn(speed);
+    })
+  }, 5000);
